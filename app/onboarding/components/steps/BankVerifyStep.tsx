@@ -145,7 +145,7 @@ export default function BankVerifyStep({
               {/* Status Icons */}
               {isVerifying && (
                 <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-                  <Loader2 className="h-4 w-4 animate-spin text-blue-600" />
+                  <Loader2 className="h-4 w-4 animate-spin text-blue-900" />
                 </div>
               )}
               {data.bankVerified && !isVerifying && (

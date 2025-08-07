@@ -155,7 +155,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md space-y-8">
         {/* Logo/Brand */}
         <div className="text-center">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600">
+          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-lg bg-blue-900">
             <span className="text-xl font-bold text-white">C</span>
           </div>
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900">
@@ -275,7 +275,7 @@ export default function LoginPage() {
               {/* Submit Button */}
               <Button
                 type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700"
+                className="w-full bg-blue-900 hover:bg-blue-700"
                 disabled={isSubmitting}
                 onClick={() => console.log('📝 LoginPage: Submit button clicked')}
               >

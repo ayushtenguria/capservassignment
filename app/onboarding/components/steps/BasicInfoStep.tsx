@@ -85,7 +85,7 @@ export default function BasicInfoStep({
       {/* UI UPDATE: Header section with refined spacing and text styles */}
       <div className="text-center">
         <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100">
-          <User className="h-8 w-8 text-blue-600" />
+          <User className="h-8 w-8 text-blue-900" />
         </div>
         <h3 className="text-xl font-semibold text-gray-900">Basic Information</h3>
         <p className="mt-1 text-sm text-gray-500">

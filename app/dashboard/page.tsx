@@ -54,7 +54,7 @@ export default function DashboardPage() {
   if (isLoading) {
     return (
       <div className="flex min-h-screen items-center justify-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-2 border-gray-300 border-t-blue-600"></div>
+        <div className="h-8 w-8 animate-spin rounded-full border-2 border-gray-300 border-t-blue-900"></div>
       </div>
     )
   }
@@ -71,7 +71,7 @@ export default function DashboardPage() {
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between">
               <div className="flex items-center">
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-900">
                   <span className="text-lg font-bold text-white">C</span>
                 </div>
                 <h1 className="ml-3 text-2xl font-bold text-gray-900">CapServ Dashboard</h1>
@@ -106,7 +106,7 @@ export default function DashboardPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <User className="mr-2 h-5 w-5 text-blue-600" />
+                  <User className="mr-2 h-5 w-5 text-blue-900" />
                   Profile Information
                 </CardTitle>
                 <CardDescription>Your account details</CardDescription>
@@ -127,7 +127,7 @@ export default function DashboardPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Mail className="mr-2 h-5 w-5 text-blue-600" />
+                  <Mail className="mr-2 h-5 w-5 text-blue-900" />
                   EMIs & Balance
                 </CardTitle>
                 <CardDescription>Track payments and accounts</CardDescription>
@@ -148,7 +148,7 @@ export default function DashboardPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Shield className="mr-2 h-5 w-5 text-blue-600" />
+                  <Shield className="mr-2 h-5 w-5 text-blue-900" />
                   Loan Marketplace
                 </CardTitle>
                 <CardDescription>Best offers available</CardDescription>
@@ -169,7 +169,7 @@ export default function DashboardPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Calendar className="mr-2 h-5 w-5 text-blue-600" />
+                  <Calendar className="mr-2 h-5 w-5 text-blue-900" />
                   Rewards & Benefits
                 </CardTitle>
                 <CardDescription>Your reward status</CardDescription>

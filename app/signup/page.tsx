@@ -271,7 +271,7 @@ export default function SignupPage() {
               {/* Submit Button */}
               <Button
                 type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700"
+                className="w-full bg-blue-900 hover:bg-blue-700"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (

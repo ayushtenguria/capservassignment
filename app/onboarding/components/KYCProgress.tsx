@@ -36,7 +36,7 @@ const KYCProgress: React.FC<KYCProgressProps> = ({ currentStep, completedSteps }
         {/* Progress Line */}
         <div className="absolute top-4 left-0 right-0 h-0.5 bg-gray-200 z-0">
           <div 
-            className="h-full bg-blue-500 transition-all duration-300 ease-out" 
+            className="h-full bg-blue-900 transition-all duration-300 ease-out" 
             style={{ width: `${progressPercentage}%` }}
           />
         </div>
@@ -56,9 +56,9 @@ const KYCProgress: React.FC<KYCProgressProps> = ({ currentStep, completedSteps }
                 <div
                   className={`relative z-10 w-8 h-8 rounded-full border-2 flex items-center justify-center font-medium text-xs transition-all duration-200 ${
                     completed
-                      ? 'bg-blue-500 border-blue-500 text-white'
+                      ? 'bg-blue-900 border-blue-500 text-white'
                       : active
-                      ? 'bg-blue-500 border-blue-500 text-white'
+                      ? 'bg-blue-800 border-blue-500 text-white'
                       : 'bg-white border-gray-300 text-gray-400'
                   }`}
                 >
@@ -78,7 +78,7 @@ const KYCProgress: React.FC<KYCProgressProps> = ({ currentStep, completedSteps }
                 {/* Compact Step Label */}
                 <div className="mt-2 text-center">
                   <div className={`text-xs font-medium transition-colors duration-200 ${
-                    active ? 'text-blue-600' : completed ? 'text-gray-700' : 'text-gray-500'
+                    active ? 'text-blue-900' : completed ? 'text-gray-700' : 'text-gray-500'
                   }`}>
                     {step.title}
                   </div>

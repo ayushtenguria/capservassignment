@@ -364,7 +364,7 @@ export default function KYCModal({ isOpen, onClose }: KYCModalProps) {
                   <Button
                     onClick={handleNext}
                     disabled={!isStepValid(currentStep) || isSubmitting}
-                    className="min-w-[120px] bg-blue-600 hover:bg-blue-700"
+                    className="min-w-[120px] bg-blue-900 hover:bg-blue-700"
                   >
                     {isSubmitting ? (
                       <>
